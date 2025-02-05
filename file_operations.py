@@ -13,3 +13,5 @@ print("now we print it line by line ")
 with open("text.txt", "r") as f:
     for line in f: # f is iterable and we get each individual line
         print(line, end="")
+
+
